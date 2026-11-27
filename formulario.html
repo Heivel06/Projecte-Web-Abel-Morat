@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHP - Formulario</title>
+<link rel="stylesheet" href="css/estil.css">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<script src="script.js" defer></script>
+</head>
+<body>
+<!-- Capçalera -->
+<div class="cap"><a href="index.html"><img src="images/favicon.svg" alt="PHP"></a><h1>PHP</h1></div>
+<div style="overflow:auto">
+<!-- Menú -->
+<div class="menu"><a href="index.html">Inicio</a>
+<a href="documentacion.html">Documentación</a>
+<a href="descargas.html">Descargas</a>
+<a href="tutorial.html">Tutorial</a>
+<a href="formulario.html" aria-current="page">Formulario</a></div>
+<!-- Cos principal -->
+<div class="main"><h2>Prueba un formulario</h2><form id="formulario"><label for="fname">First name:</label><input id="fname" name="fname" required><label for="lname">Last name:</label><input id="lname" name="lname" required><button type="submit">Submit</button></form><section id="resultado" hidden aria-live="polite"><h2>Submitted Form Data</h2><p>Your input was received as:</p><p>First name: <span id="nombre"></span></p><p>Last name: <span id="apellido"></span></p></section></div>
+<!-- Columna dreta -->
+<div class="right"><h2>Recursos</h2><p>Aprende desarrollo web con PHP.</p><a href="https://www.php.net/">Web oficial</a><p><a href="documentacion.html">Manual básico</a></p></div>
+</div>
+<!-- Peu de pàgina -->
+<div class="peu">Proyecto educativo · Imitación no oficial de PHP.net</div>
+</body>
+</html>
